@@ -17,8 +17,11 @@ class ListaSerieCuadratica : AppCompatActivity() {
 
         serieDeNumeros = intent.getIntArrayExtra("serieCuadratica") ?: intArrayOf()
 
-        val adapter = ArrayAdapter(this,android.R.layout.simple_list_item_1,serieDeNumeros)
+        val adapter = ArrayAdapter(this,android.R.layout.simple_list_item_1,serieDeNumeros.toList())
+        binding.listaN.adapter = adapter
 
 
     }
+
+
 }
