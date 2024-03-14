@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">primerParcialSantiagoVera</string>
+    <string name="titulo">Serie Cuadratica</string>
+    <string name="calcular">calcular</string>
+</resources>
